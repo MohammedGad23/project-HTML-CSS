@@ -132,7 +132,7 @@ body{
     background-color: white;
     border-radius: 10px;
     width: 299px;
-    padding: 11px;
+    padding: 10px;
     font-size: 19px;
     height: 460px;
 }
@@ -150,7 +150,6 @@ body{
     position: relative;
     left: 5%;
     width: 90%;
-    height: 100%;
     border-radius: 15px;
     text-align: center;
     padding: 10px 0px;
@@ -166,6 +165,18 @@ body{
 .LearnAnyway a img{
     margin:17px 10px 0px 20px;
     border-radius: 6px;
+}
+
+.platform{
+    margin-top: 8%;
+    background-color: white;
+    width: 80%;
+    padding: 7% 10%;
+}
+.titlePlatform{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 
