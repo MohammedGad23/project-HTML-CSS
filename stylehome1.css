@@ -1,32 +1,28 @@
 .platform{
-    position: absolute;
+    position: relative;
     margin-top: 8%;
-    background-color: white;
     width: 100%;
+    background-color: white;
     padding: 7% 0%;
+    margin-bottom: 10px;
 }
 .titlePlatform, .PlatformTechnical{
     text-align: center;
     font-size: 60px;
     font-weight: bold;
-    margin-bottom: 70px;
     padding: 0px 10%;
+
 }
 .PlatformTechnical{
     padding: 0px 6%;
     font-weight: normal;
 }
 .PlatformTechnical div{
-    float: left;
-    background-color: white;
-    border-radius: 10px;
     width: 450px;
     font-size: 19px;
-    height: 460px;
     text-align: center;
 }
-.PlatformTechnical button{
-    position: relative;
+.PlatformTechnical button,.Commuinity button{
     bottom: 0%;
     padding: 15px 45px;
     border-radius: 5px;
@@ -43,5 +39,21 @@
 }
 
 .Commuinity{
-   
+    position: relative;
+    padding: 7% 0%;
+    font-size: 38px;
+    text-align: center;
+    align-items: center;
 }
+.MidComunity button{
+    background-color: #40bf9c;
+}
+.MidComunity .Run{
+    margin:60px 0px;
+    border: 0px solid red;
+    border-radius: 50px;
+}
+
+
+
+

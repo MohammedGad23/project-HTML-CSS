@@ -2,12 +2,12 @@ body{
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif ;
 }
 .container{
-    width: 100%;
     position: absolute;
+    background-color: #f2f5f7;
     top: 80px;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 1000px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
 }
 .header{
     background-color: #1f1e28;
