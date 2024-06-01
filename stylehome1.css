@@ -40,7 +40,7 @@
 
 .Commuinity{
     position: relative;
-    padding: 7% 0%;
+    padding: 7% 0% 5%;
     font-size: 38px;
     text-align: center;
     align-items: center;
@@ -54,6 +54,51 @@
     border-radius: 50px;
 }
 
+.Job{
+    position: relative;
+    background-color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 0px 6%;
+    margin-bottom: 8%;
+    display: flex;
+}
+.Job div{
+    float: left;
+    display: flex;
+    padding: 0px 20px;
+}
 
+.Code{
+    position: relative;
+    font-size: 38px;
+    text-align: center;
+    align-items: center;
+    padding:0px 4% 50px;
 
-
+}
+.Code .itemCode{
+    position: relative;
+    float: left;
+    width: 262px;
+    font-size: 19px;
+    text-align: center;
+    padding: 20px 30px 30px;
+    background-color: white;
+    margin: 40px 15px 50px;
+}
+.itemCode .imgCode img{
+    position: relative;
+    margin-top: -41.5%;
+}
+.Code button{
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #149ef2;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+}
