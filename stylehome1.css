@@ -13,9 +13,15 @@
     padding: 0px 10%;
 
 }
+.titlePlatform{
+    margin-bottom: 50px;
+}
 .PlatformTechnical{
     padding: 0px 6%;
     font-weight: normal;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 .PlatformTechnical div{
     width: 450px;
