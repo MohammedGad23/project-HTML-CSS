@@ -1,13 +1,14 @@
 body{
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif ;
 }
+a{
+    text-decoration: none;
+}
 .container{
     position: absolute;
-    background-color: #f2f5f7;
     top: 80px;
-    width: 100%;
     left: 0%;
-    right: 0%;
+    background-color: #f2f5f7;
 }
 .header{
     background-color: #1f1e28;
@@ -39,11 +40,11 @@ body{
     background-color: #201d3b;
 }
 .home-info{
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    position: relative;
     background-color: #1f1e28;
     justify-content: center;
 }
@@ -55,6 +56,7 @@ body{
     font-weight: bold;
     text-align: center;
     margin-top: 0%;
+    min-width: 200px;
 }
 .login{
     cursor: pointer;
