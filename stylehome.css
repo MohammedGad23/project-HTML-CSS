@@ -128,10 +128,10 @@ a{
 }
 .home-solo div, .LearnAnyway div{
     position: relative;
-   /* float: left;*/
+    float: left;
     background-color: white;
     border-radius: 10px;
-    width: 299px;
+    width: 310px;
     padding: 10px;
     font-size: 19px;
     height: 460px;
