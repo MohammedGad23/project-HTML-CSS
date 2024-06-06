@@ -118,6 +118,7 @@ a{
 }
 .home-solo{
     position: relative;
+    display:flex;
     left: 5%;
     top: 30px;
     width: 90%;
@@ -127,7 +128,7 @@ a{
 }
 .home-solo div, .LearnAnyway div{
     position: relative;
-    float: left;
+   /* float: left;*/
     background-color: white;
     border-radius: 10px;
     width: 299px;
